@@ -24,4 +24,6 @@ router.get('/getuserInfo',auth,userModule.getUserInfo)
 
 router.put('/updateuser',auth,userModule.updateUser)
 
+router.get('/getalluser',auth,userModule.getAllUsers)
+
 module.exports= router
